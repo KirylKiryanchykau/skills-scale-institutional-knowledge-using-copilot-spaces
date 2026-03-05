@@ -1,0 +1,76 @@
+# OctoAcme — Technical Writing & Documentation
+
+## Purpose
+Define how documentation is created, maintained, and kept current to support users, stakeholders, and team members.
+
+## Types of Documentation
+
+### 1. Internal Process Documentation
+- Project charters and plans
+- Design and architecture docs
+- Runbooks and playbooks
+- Standard operating procedures (SOPs)
+- Onboarding guides
+
+### 2. Product Documentation
+- User guides and help center articles
+- API documentation
+- Integration guides
+- FAQs and troubleshooting guides
+- Feature announcements
+
+### 3. Release Documentation
+- Release notes
+- Migration guides
+- Deployment procedures
+- Known issues and workarounds
+
+## Documentation Standards
+
+### Writing Style
+- Use clear, concise language (8th-grade reading level target)
+- Use active voice and second person ("you")
+- Include examples and use cases
+- Avoid jargon; define technical terms
+- Use consistent terminology across docs
+
+### Structure & Format
+- Start with a clear purpose or objective
+- Use headings to organize content (H2, H3, H4)
+- Include a table of contents for long docs
+- Use bulleted/numbered lists for clarity
+- Include screenshots or diagrams where helpful
+- End with summary and next steps
+
+### Documentation Checklist
+- [ ] Purpose and audience clear
+- [ ] Content accurate and current
+- [ ] Grammar and spelling correct
+- [ ] Examples included and tested
+- [ ] Links and references valid
+- [ ] Consistent formatting and style
+- [ ] Accessibility-friendly (alt text for images, proper heading hierarchy)
+
+## Documentation Lifecycle
+
+### Creation
+1. Technical Writer gathers information from SMEs (subject matter experts)
+2. Outline and structure created
+3. Draft written and reviewed by stakeholder
+4. Revisions and final review
+5. Published and linked from appropriate locations
+
+### Maintenance
+- Review and update quarterly or when features change
+- Gather feedback from users (support tickets, surveys)
+- Mark outdated content clearly
+- Archive old versions but keep links functional
+
+### Retirement
+- Remove references to deprecated features
+- Archive documentation for historical reference
+- Redirect users to current documentation
+
+## Documentation Templates
+
+### Process Doc Template
