@@ -1,0 +1,83 @@
+# OctoAcme — UX Design & Collaboration
+
+## Purpose
+Define how UX design integrates into project execution and how UX Designers collaborate with other roles.
+
+## When UX Design Starts
+- **Project Planning Phase:** UX Designer involved in defining requirements and user flows
+- **Sprint Planning:** Design specifications prepared before development begins
+- **Development:** UX Designer reviews code and provides design feedback
+- **QA:** UX Designer validates usability and design fidelity
+- **Release:** UX Designer ensures help content and UI consistency
+
+## Design Workflow
+
+### 1. Requirements & Research
+- UX Designer collaborates with Product Manager on user research
+- Define user personas and user flows
+- Identify accessibility and usability requirements
+- Document design principles and constraints
+
+### 2. Wireframes & Prototypes
+- Create wireframes for user flows
+- Build interactive prototypes for user testing
+- Conduct usability testing with target users
+- Gather feedback and iterate
+
+### 3. Design Specifications
+- Create detailed design specs with annotations
+- Define UI component library and design tokens
+- Document interaction patterns and animations
+- Provide design assets (Figma, sketch files, etc.)
+
+### 4. Development Handoff
+- Share design specs with development team
+- Conduct design review to confirm understanding
+- Establish feedback loop for design questions
+- Create design QA checklist
+
+### 5. Design QA & Validation
+- Review implemented features against design specs
+- Validate responsive design across devices
+- Confirm accessibility standards met (WCAG 2.1 AA)
+- Conduct usability testing on final implementation
+
+## Design Review Checklist
+- [ ] UI matches approved design specifications
+- [ ] Responsive design works across breakpoints
+- [ ] Accessibility standards met (keyboard navigation, screen readers, color contrast)
+- [ ] Spacing, typography, and colors consistent with design system
+- [ ] Error states and edge cases handled
+- [ ] Loading and empty states designed
+- [ ] Help text and labels clear
+- [ ] Animations smooth and not distracting
+
+## Collaboration Matrix
+| Activity | UX Designer | Product Manager | Developer | QA Lead |
+|----------|------------|-----------------|-----------|---------|
+| User research | Lead | Support | — | — |
+| Wireframing | Lead | Input | — | — |
+| Design specs | Lead | Review | Implement | Validate |
+| Design QA | Lead | Review | Address feedback | Co-validate |
+| Help content | Input | Lead | — | Review |
+
+## Design System & Component Library
+- Maintain centralized design system (e.g., Storybook)
+- Document component specs and usage guidelines
+- Keep design system in sync with implementation
+- Version design changes and communicate updates
+
+## Accessibility Standards
+All designs must meet WCAG 2.1 Level AA:
+- [ ] Color contrast ratios (4.5:1 for text)
+- [ ] Keyboard navigation support
+- [ ] Screen reader compatibility
+- [ ] Form labels and error messaging
+- [ ] Focus indicators visible
+- [ ] Motion/animation can be disabled
+
+## Metrics & Validation
+- Usability test results (task success rate, time on task)
+- User satisfaction scores
+- Support ticket volume related to UX confusion
+- Feature adoption and engagement metrics
