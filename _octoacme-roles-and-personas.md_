@@ -1,0 +1,221 @@
+# OctoAcme Personas
+
+This document defines typical roles and responsibilities used in OctoAcme project docs and exercises.
+
+---
+
+## Developers
+
+### Role Summary
+Developers design, build, test, and deliver software components. They collaborate with product and project leads to implement features that meet acceptance criteria and quality standards.
+
+### Responsibilities
+- Implement features and fixes to meet acceptance criteria
+- Write and maintain tests and documentation
+- Participate in design and code reviews
+- Assist in estimating and planning work
+- Help identify technical risks and propose mitigations
+
+### Goals
+- Deliver reliable, maintainable code
+- Reduce cycle time from idea to production
+- Maintain high test coverage and observability
+
+### Typical Communication
+- Daily standups and sprint planning
+- PR descriptions and code review comments
+- Technical design docs when needed
+
+---
+
+## Product Managers
+
+### Role Summary
+Product Managers define what should be built to deliver customer and business value. They own the product vision, prioritize the backlog, and measure outcomes.
+
+### Responsibilities
+- Define problem statements and success metrics
+- Prioritize the roadmap and backlog
+- Collaborate with stakeholders and engineering on trade-offs
+- Validate solutions through user research and metrics
+
+### Goals
+- Maximize customer value and impact
+- Make clear, data-driven prioritization decisions
+- Ensure product-market fit and usability
+
+### Typical Communication
+- Weekly alignment with PM and engineering leads
+- Roadmap updates and stakeholder briefings
+- Acceptance criteria and feature specs
+
+---
+
+## Project Managers
+
+### Role Summary
+Project Managers coordinate delivery activities, manage schedules, risks, and communications. They enable the team to deliver on commitments efficiently.
+
+### Responsibilities
+- Create and maintain project plans and timelines
+- Manage risks, dependencies, and resource constraints
+- Facilitate meetings (kickoff, planning, retrospectives)
+- Ensure consistent project documentation and status reporting
+- Coordinate cross-team and stakeholder communication
+
+### Goals
+- Deliver projects on time and within scope
+- Minimize unplanned work and escalations
+- Maintain transparency and alignment across stakeholders
+
+### Typical Communication
+- Weekly status updates and stakeholder reports
+- Risk registers and decision logs
+- Coordination via project boards and meeting facilitation
+
+---
+
+## Quality Assurance Lead
+
+### Role Summary
+The Quality Assurance Lead owns quality strategy, develops and maintains test plans, and coordinates test execution activities. They ensure that all deliverables meet acceptance criteria and quality standards before release.
+
+### Responsibilities
+- Define QA strategy and test approach for the project
+- Develop and maintain test plans and test cases
+- Coordinate manual and automated testing efforts
+- Perform triage of defects and track resolution
+- Ensure Definition of Done is met before features move to release
+- Validate acceptance criteria across deliverables
+
+### Goals
+- Prevent defects from reaching production
+- Maintain high quality standards and customer satisfaction
+- Reduce rework and post-release issues
+- Enable fast, confident releases
+
+### Interactions
+- **With Developers:** Collaborates on test automation, acceptance criteria clarity, and bug triage
+- **With Product Manager:** Aligns on acceptance criteria and quality expectations
+- **With Project Manager:** Tracks QA progress, identifies blockers, and ensures quality milestones are met
+- **With Release Manager:** Provides sign-off on quality readiness for release Go/No-Go decisions
+- **With UX Designer:** Validates user experience and usability against design specifications
+
+### Typical Communication
+- Sprint planning and backlog refinement
+- Daily standup participation and issue triage
+- QA progress reports and quality metrics
+- Test case documentation and defect logs
+
+---
+
+## Release Manager
+
+### Role Summary
+The Release Manager owns the end-to-end release process, schedules releases, coordinates deployment activities, and manages release communications. They ensure smooth transitions from development to production with minimal risk.
+
+### Responsibilities
+- Create and communicate release schedules and timelines
+- Prepare release notes and deployment documentation
+- Coordinate with development and QA for Go/No-Go decisions
+- Oversee deployment activities and post-deployment verification
+- Manage rollback and incident response procedures
+- Track and communicate release status to stakeholders
+- Document lessons learned and improve release processes
+
+### Goals
+- Execute reliable, predictable releases
+- Minimize deployment risks and downtime
+- Ensure transparent communication with all stakeholders
+- Establish repeatable, efficient release processes
+
+### Interactions
+- **With Developers:** Coordinates final code reviews, merges, and deployment preparation
+- **With Quality Assurance Lead:** Confirms quality readiness and test completion before release
+- **With Project Manager:** Aligns on release timeline and coordinates with project milestones
+- **With Product Manager:** Communicates feature readiness and supports release announcements
+- **With Stakeholders:** Provides release updates, deployment windows, and post-release summaries
+
+### Typical Communication
+- Release planning meetings and deployment windows
+- Release notes and deployment checklists
+- Incident response coordination
+- Stakeholder release bulletins
+
+---
+
+## UX Designer
+
+### Role Summary
+The UX Designer ensures that products are intuitive, usable, and delightful. They advocate for the end-user perspective throughout the project lifecycle and validate that solutions meet usability standards.
+
+### Responsibilities
+- Define user interface (UI) and user experience (UX) requirements
+- Create wireframes, prototypes, and design specifications
+- Conduct user research and usability testing
+- Validate features against design specifications
+- Collaborate on accessibility and inclusive design standards
+- Provide design assets and guidelines to development team
+- Iterate on designs based on user feedback and metrics
+
+### Goals
+- Deliver usable, accessible, and delightful user experiences
+- Reduce user friction and support burden
+- Maximize user adoption and satisfaction
+- Ensure consistency across the product
+
+### Interactions
+- **With Product Manager:** Collaborates on feature requirements and user research to inform prioritization
+- **With Developers:** Partners during implementation to ensure design fidelity and technical feasibility
+- **With Quality Assurance Lead:** Validates usability testing and user acceptance
+- **With Stakeholders:** Presents design rationale and gathers feedback
+- **With Technical Writer:** Ensures UI/UX documentation and help content align with design
+
+### Typical Communication
+- Design reviews and feedback sessions
+- Wireframes and design specifications
+- Usability test reports and findings
+- Design system documentation
+
+---
+
+## Technical Writer
+
+### Role Summary
+The Technical Writer maintains product and process documentation, creates release notes, and supports onboarding. They ensure that information is clear, accurate, and accessible to all audiences.
+
+### Responsibilities
+- Create and maintain internal process documentation
+- Develop user-facing product documentation and help content
+- Prepare release notes and migration guides
+- Support team onboarding with clear guides and runbooks
+- Review and edit project and technical documentation for clarity
+- Maintain documentation standards and templates
+- Ensure documentation stays current with product changes
+
+### Goals
+- Reduce support burden through clear self-service documentation
+- Accelerate team onboarding and knowledge sharing
+- Maintain single source of truth for processes and procedures
+- Support product adoption through excellent user documentation
+
+### Interactions
+- **With All Roles:** Gathers information and feedback to ensure comprehensive, accurate documentation
+- **With Developers:** Documents technical architecture, APIs, and deployment procedures
+- **With Product Manager:** Creates user-facing documentation and help content aligned with feature announcements
+- **With Quality Assurance Lead:** Documents test procedures and acceptance criteria
+- **With Release Manager:** Prepares release notes and deployment documentation
+- **With UX Designer:** Ensures help content and UI labels align with design specifications
+
+### Typical Communication
+- Documentation planning and review meetings
+- Style guide and template maintenance
+- Documentation drafts and feedback cycles
+- Onboarding and knowledge base articles
+
+---
+
+## How these personas are used in the exercise
+- Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
+- Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
+- When creating projects, assign team members to roles based on their skills and project needs.
